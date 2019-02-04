@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Garden Tracker</string>
+
+    <string name="maintenance">Maintenance</string>
+    <string name="detail_maintenance">Maintenance detail</string>
+    <string name="note">Note</string>
+    <string name="detail_note">Note detail</string>
+
+    <string name="add_new_maintenance">Add new maintenance</string>
+    <string name="see_maintenances">See maintenances</string>
+    <string name="add_new_photo">Add new photo</string>
+    <string name="photo_gallery">Photo Gallery</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="see_notes">See notes</string>
+    <string name="today_maintenances">Today maintenances</string>
+    <string name="weather_forecast">Weather Forecast</string>
+    <string name="settings">Settings</string>
+
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="start_day">Start day</string>
+    <string name="start_day_description">Day you started with maintenance</string>
+    <string name="notification">Notification</string>
+    <string name="notification_interval">Notification interval in days</string>
+    <string name="notification_interval_description">How often notification will be displayed</string>
+    <string name="notification_time">Notification time</string>
+    <string name="notification_time_description">When notification will be displayed</string>
+    <string name="click_to_change">Click to change</string>
+
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+
+    <string name="deleted">Deleted</string>
+    <string name="check">Check</string>
+    <string name="any_maintenance">Any maintenance.</string>
+    <string name="any_photo">Any photo.</string>
+    <string name="any_note">Any note.</string>
+    <string name="fill_form">You have to fill out all fields.</string>
+    <string name="saved">Saved</string>
+    <string name="searching">Searching ...</string>
+    <string name="connection_error">Connection error.</string>
+    <string name="city_not_found">City not found!</string>
+    <string name="weather_not_implemented">Sorry, weather forecast is not implemented yet.</string>
+    <string name="permission_denied">Permission denied. You cannot access to functionality.</string>
+    <string name="here_you_can_add_note">Here you can add a note ...</string>
+    <string name="note_not_filled">You have to fill out note.</string>
+    <string name="notification_text">Did you do it?</string>
+    <string name="any_today_maintenances">Any today maintenances.</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="did_maintenance_dialog_title">Doing maintenance</string>
+    <string name="did_maintenance_dialog_question">Have you do this maintenance?</string>
+    <string name="add_maintenance_dialog_title">Add new maintenance</string>
+    <string name="add_maintenance_dialog_question">Do you want to add new maintenance?</string>
+    <string name="save_maintenance_dialog_title">Save maintenance</string>
+    <string name="save_maintenance_dialog_question">Do you want to save maintenance?</string>
+    <string name="remove_maintenance_dialog_title">Remove maintenance</string>
+    <string name="remove_maintenance_dialog_question">Do you want to remove maintenance?</string>
+
+
+    <string name="remove_photo_dialog_title">Remove photo</string>
+    <string name="remove_photo_dialog_question">Do you want to remove photo?</string>
+    <string name="remove_photo_note_dialog_title">Remove note</string>
+    <string name="remove_photo_note_dialog_question">Do you want to remove note?</string>
+
+
+    <string name="add_note_dialog_title">Add new note</string>
+    <string name="add_note_dialog_question">Do you want to add new note?</string>
+    <string name="save_note_dialog_title">Save note</string>
+    <string name="save_note_dialog_question">Do you want to save note?</string>
+    <string name="remove_note_dialog_title">Remove note</string>
+    <string name="remove_note_dialog_question">Do you want to remove note?</string>
+
+
+
+    <string name="temperature_in_celsius">%d/%d °C</string>
+    <string name="city_country">%s, %s</string>
+    <string name="image_name">JPG_%d.jpg</string>
+    <plurals name="notification_title">
+        <item quantity="one">You have %d job to do</item>
+        <item quantity="other">You have %d jobs to do</item>
+    </plurals>
+    <string name="added_date">Added %s</string>
+    <string name="updated_date">Updated %s</string>
+
+    <string name="item_1">Maintenances</string>
+    <string name="item_2">Photo Gallery</string>
+    <string name="item_3">Note List</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

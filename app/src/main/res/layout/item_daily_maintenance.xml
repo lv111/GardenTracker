@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/extraSmallText"
+        android:textColor="@color/colorGreyMedium"
+        android:paddingTop="@dimen/dimen_4"
+        android:paddingLeft="@dimen/dimen_2"
+        android:paddingStart="@dimen/dimen_2"
+        android:paddingBottom="@dimen/dimen_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="07 June 2018" />
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/extraSmallText"
+        android:textColor="@color/colorGreyMedium"
+        android:paddingTop="@dimen/dimen_4"
+        android:paddingRight="@dimen/dimen_2"
+        android:paddingEnd="@dimen/dimen_2"
+        android:paddingBottom="@dimen/dimen_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Thursday" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDate" />
+
+</android.support.constraint.ConstraintLayout>

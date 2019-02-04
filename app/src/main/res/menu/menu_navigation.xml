@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/maintenance">
+        <menu>
+            <item
+                android:id="@+id/nav_add_new_maintenance"
+                android:icon="@drawable/plus"
+                android:title="@string/add_new_maintenance" />
+            <item
+                android:id="@+id/nav_see_maintenances"
+                android:icon="@drawable/maintenance"
+                android:title="@string/see_maintenances" />
+        </menu>
+    </item>
+
+    <item android:title="@string/photo_gallery">
+        <menu>
+            <item
+                android:id="@+id/nav_add_new_photo"
+                android:icon="@drawable/plus"
+                android:title="@string/add_new_photo" />
+            <item
+                android:id="@+id/nav_photo_gallery"
+                android:icon="@drawable/photo"
+                android:title="@string/photo_gallery" />
+        </menu>
+    </item>
+
+    <item android:title="@string/note">
+        <menu>
+            <item
+                android:id="@+id/nav_add_new_note"
+                android:icon="@drawable/plus"
+                android:title="@string/add_new_note" />
+            <item
+                android:id="@+id/nav_see_notes"
+                android:icon="@drawable/note"
+                android:title="@string/see_notes" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_today_maintenances"
+            android:icon="@drawable/clock"
+            android:title="@string/today_maintenances" />
+        <item
+            android:id="@+id/nav_weather_forecast"
+            android:icon="@drawable/sun"
+            android:title="@string/weather_forecast" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+    </group>
+
+</menu>
